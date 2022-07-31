@@ -51,7 +51,7 @@ class _LogConsoleState extends State<LogConsole> {
   var _filterController = TextEditingController();
 
   Level _filterLevel = Level.verbose;
-  double _logFontSize = 14;
+  double _logFontSize = 10;
 
   var _currentId = 0;
   bool _scrollListenerEnabled = true;
